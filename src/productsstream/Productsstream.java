@@ -13,7 +13,7 @@ public class Productsstream {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         Product po1 = new Product("cod1", "parafusos", 3.0);
         Product po2 = new Product("cod2", "arandelas", 4.0);
-        File products = new File("/home/local/DANIELCASTELAO/plago-bergonpazos/NetBeansProjects/primitivewritechars/src/products.txt");
+        File products = new File("/home/local/DANIELCASTELAO/plago-bergonpazos/NetBeansProjects/productsstream/src/products.txt");
         DataOutputStream write = new DataOutputStream(new FileOutputStream(products));
         DataInputStream read = new DataInputStream(new FileInputStream(products));
         //Grabar valores primer obx
